@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class LogoutTestCase(unittest.TestCase):
-
+    
     @classmethod
     def setUpClass(cls):
         # Use a compatible browser driver (adjust as needed)
